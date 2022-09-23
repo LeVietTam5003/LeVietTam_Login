@@ -23,7 +23,7 @@ $(document).ready(function() {
         }
 
         if (getEmailin != " " && getPassin != "") {
-            if (getEmailin == Email && getPassin == Pass) {
+            if (getEmailin != "" && getPassin != "") {
                 alert("Đăng nhập thành công");
                 $("input#in_mail").val("")
                 $("input#in_pass").val("")
